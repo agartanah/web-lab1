@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-family: BlackSignature;
+}
+
+.travel-text {
+    font-family: 'Changa One'; 
+    font-size: 30px;
+    color: #8A53FF;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav-box>ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-box>ul a {
+    display: block;
+    padding: 2em;   
+    border-style: none;
+    font-family: Roboto;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 35%;
+}
