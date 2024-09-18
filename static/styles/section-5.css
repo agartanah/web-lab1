@@ -1,0 +1,93 @@
+.recent-stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.stories-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.stories-text-top {
+    font-family: Roboto;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    color: #8A53FF;
+}
+
+.stories-text-bottom {
+    font-family: 'Changa One';
+    color: #434343;
+    font-size: 2.2em;
+    line-height: 2.2em;
+}
+
+.stories-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.left-card { 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 2%
+}
+
+.left-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 2% 3% 2%;
+    background-color: #F9F9F9;
+    border-radius: 0 0 8px 8px;
+}
+
+.left-card-text {
+    max-width: 80%;
+}
+
+.right-cards {
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+
+.right-card {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    background-color: #F9F9F9;
+}
+
+.right-card-text {
+    margin-left: 3%;
+}
+
+.right-card-text span {
+    color: #8A53FF;
+}
+
+.country-name {
+    font-family: 'Changa One';
+    font-size: 1.5em;
+    color: #434343;
+    line-height: 1.8em;
+}
+
+.country-description {
+    font-family: Roboto;
+    font-size: 1em;
+    color: #576074;
+    line-height: 1.5em;
+}
