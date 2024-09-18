@@ -1,0 +1,60 @@
+.discover-section {
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+
+.discover-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-text {
+    font-family: Roboto;
+    font-size: 1.1em;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    color: #8A53FF;
+}
+
+.discover-text {
+    margin-top: 0.5%;
+    font-family: 'Changa One';
+    font-size: 2.4em;
+    color: #434343;
+}
+
+.discover-cards {
+    padding-top: 4%;
+    margin-inline: 10%;
+}
+
+.discover-cards ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.discover-cards ol>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover-name {
+    font-family: 'Changa One';
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #434343;
+}
+
+.discover-link a {
+    font-family: Roboto;
+    font-size: 1em;
+    color: #8A53FF;
+    font-weight: lighter;
+}
+
+
+
