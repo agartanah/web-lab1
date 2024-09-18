@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="static/styles/header.css">
     <link rel="stylesheet" href="static/styles/section-2.css">
     <link rel="stylesheet" href="static/styles/section-3.css">
+    <link rel="stylesheet" href="static/styles/section-4.css">
     <title>Document</title>
 </head>
 <body>
@@ -122,6 +123,40 @@
                         </ol>
                     </ul>
                 </div>
+            </div>
+            <div class="user-form">
+                <div class="text-over-form">
+                    <p class="top-text">LET’S BUILD A COMMUNITY</p>
+                    <p class="bottom-text">Join our next destination</p>
+                </div>
+
+                <form class="form-destination" action="index.html">
+                    <div class="text-in-form">
+                        <p class="text-share">Share your travels</p>
+                        <p class="text-suggest">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+                    </div>
+
+                    <input class="destination-name-input" type="text" name="destination-name" placeholder="Destination Name">
+                    <select class="select-country" name="country">
+                        <option value="" disabled selected>Country of Destination</option>
+                        <option value="italy">Italy</option>
+                        <option value="dubai">Dubai</option>
+                        <option value="iceland">Iceland</option>
+                        <option value="patagonia">Patagonia</option>
+                    </select>
+                    <input class="input-name" type="text" name="name" placeholder="Your name" required>
+
+                    <select class="select-shooting" name="shooting-category" required>
+                        <option value="" disabled selected>Shooting category</option>
+                        <option value="portrait">Portrait</option>
+                        <option value="landscape">Landscape</option>
+                        <option value="wildlife">Wildlife</option>
+                    </select>
+
+                    <textarea class="textarea-focus" name="photo-focus" rows="4" placeholder="Describe what kind of photos you want to focus on"></textarea>
+
+                    <button class="btn-submit" type="submit">Submit</button>
+                </form>
             </div>
         </div>
     </section>
