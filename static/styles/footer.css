@@ -1,0 +1,22 @@
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9%;
+    padding-right: 9%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: #939EB4;
+    font-family: Roboto;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-list a {
+    display: block;
+    padding-inline: 1.8em;
+    border-style: none;
+    color: #939EB4;
+}
