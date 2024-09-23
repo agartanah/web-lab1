@@ -1,5 +1,6 @@
 .featured-destination-section {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin-top: 10%;
     margin-bottom: 10%;
