@@ -48,7 +48,7 @@
     color: #434343;
 }
 
-.callout-text>button {
+.callout-text>a>button {
     width: 30%;
     height: 2.8em;
     margin-top: 13%;
