@@ -1,0 +1,32 @@
+.highlights {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.highlights>p {
+    font-family: 'Changa One';
+    font-size: 2.2em;
+    line-height: 2em;
+    color: #434343;
+}
+
+.highlights-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.highlights-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.highlights-card p {
+    margin-top: 5%;
+    font-family: Roboto;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #828181;
+}
