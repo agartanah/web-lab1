@@ -1,0 +1,19 @@
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 1% 2% 1% 2%;
+    margin-bottom: 3%;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+}
+
+.disclaimer p {
+    font-family: Roboto;
+    color: #434343;
+    line-height: 1.8em;
+}
+
+.disclaimer-title {
+    font-weight: bold;
+}
