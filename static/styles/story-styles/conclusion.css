@@ -1,0 +1,10 @@
+.conclusion {
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.conclusion p {
+    font-family: Roboto;
+    color: #434343;
+    line-height: 1.6em;
+}
