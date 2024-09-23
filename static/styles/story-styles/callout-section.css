@@ -1,0 +1,60 @@
+.callout-section {
+    display: flex;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.callout-images {
+    display: flex;
+    width: 50%;
+    gap: 3.4%;
+}
+
+.right-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 3.4%;
+}
+
+.callout-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 34px 34px 0px 34px;
+}
+
+.callout-title {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.callout-title svg {
+    max-width: 20%;
+    margin-right: 4%;
+}
+
+.callout-title p {
+    max-width: 80%;
+    font-family: 'Changa One';
+    font-size: 2.35em;
+    font-style: italic;
+    letter-spacing: -0.04em;
+    color: #434343;
+}
+
+.callout-text>p {
+    font-family: Roboto;
+    line-height: 1.6em;
+    color: #434343;
+}
+
+.callout-text>button {
+    width: 30%;
+    height: 2.8em;
+    margin-top: 13%;
+    font-family: Roboto;
+    background-color: #8A53FF;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+}
